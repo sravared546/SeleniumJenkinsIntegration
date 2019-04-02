@@ -9,6 +9,8 @@ public class TestNGSelenium {
 	WebDriver driver = null;
 	@BeforeClass
 	public void initialSteps(){
+		
+		System.out.println("entering1234");
 		  String URL = "https://www.facebook.com";
 		  System.setProperty("webdriver.chrome.driver",
 					"C:\\Users\\sravan\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
@@ -20,6 +22,7 @@ public class TestNGSelenium {
 	
    @Test
    public void openFBPage(){
+	   System.out.println("enterring");
 	   driver.findElement(By.id("email")).sendKeys("abc@gmail.com");
 	   driver.findElement(By.name("pass")).sendKeys("abc@gmail.com");
 	   assertTrue(true);
