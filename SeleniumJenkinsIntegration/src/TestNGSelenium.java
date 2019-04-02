@@ -24,6 +24,7 @@ public class TestNGSelenium {
 	   driver.findElement(By.name("pass")).sendKeys("abc@gmail.com");
 	   assertTrue(true);
    }
+   @Test
    public void openFBPage1(){
 	   driver.findElement(By.id("email")).sendKeys("abc@gmail.com");
 	   driver.findElement(By.name("pass")).sendKeys("abc@gmail.com");

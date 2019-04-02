@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17370" started-at="2019-04-02T03:08:30Z" finished-at="2019-04-02T03:08:47Z">
+  <suite name="Default suite" duration-ms="40189" started-at="2019-04-02T05:15:53Z" finished-at="2019-04-02T05:16:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17370" started-at="2019-04-02T03:08:30Z" finished-at="2019-04-02T03:08:47Z">
+    <test name="Default test" duration-ms="40189" started-at="2019-04-02T05:15:53Z" finished-at="2019-04-02T05:16:33Z">
       <class name="TestNGSelenium">
-        <test-method status="PASS" signature="initialSteps()[pri:0, instance:TestNGSelenium@35bbe5e8]" name="initialSteps" is-config="true" duration-ms="13999" started-at="2019-04-02T08:38:30Z" finished-at="2019-04-02T08:38:44Z">
+        <test-method status="PASS" signature="initialSteps()[pri:0, instance:TestNGSelenium@2d209079]" name="initialSteps" is-config="true" duration-ms="39507" started-at="2019-04-02T10:45:53Z" finished-at="2019-04-02T10:46:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialSteps -->
-        <test-method status="PASS" signature="openFBPage()[pri:0, instance:TestNGSelenium@35bbe5e8]" name="openFBPage" duration-ms="3316" started-at="2019-04-02T08:38:44Z" finished-at="2019-04-02T08:38:47Z">
+        <test-method status="PASS" signature="openFBPage()[pri:0, instance:TestNGSelenium@2d209079]" name="openFBPage" duration-ms="577" started-at="2019-04-02T10:46:33Z" finished-at="2019-04-02T10:46:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openFBPage -->
